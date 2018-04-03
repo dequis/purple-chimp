@@ -43,3 +43,5 @@ I typoed the name once and I liked it so it stuck.
 ### License
 
 GPLv3+ licenced
+
+Logo based on https://openclipart.org/detail/235969/flat-monkey
