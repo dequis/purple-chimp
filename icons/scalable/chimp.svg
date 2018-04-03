@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 760.68 722.94"
+   id="svg3008"
+   sodipodi:docname="1451946459.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1062"
+     id="namedview34"
+     showgrid="false"
+     inkscape:zoom="0.92332531"
+     inkscape:cx="299.13514"
+     inkscape:cy="390.11318"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4227" />
+  <defs
+     id="defs30" />
+  <g
+     transform="translate(3.9108 -90.648)"
+     id="layer1">
+    <g
+       id="g4227">
+      <g
+         id="g4223">
+        <ellipse
+           id="path3092"
+           style="fill:#310f44;fill-opacity:1"
+           transform="matrix(0.94101712,-0.33835896,0.33835896,0.94101712,0,0)"
+           cx="-17.337431"
+           cy="368.67111"
+           rx="108.57176"
+           ry="137.85757" />
+        <ellipse
+           id="path3215"
+           style="fill:#a754d7;fill-opacity:1"
+           transform="matrix(0.94101715,-0.33835888,0.33835888,0.94101715,0,0)"
+           cx="-20.442055"
+           cy="380.25711"
+           rx="66.321976"
+           ry="84.211456" />
+      </g>
+      <g
+         id="g4219">
+        <ellipse
+           id="path3232"
+           style="fill:#310f44;fill-opacity:1"
+           transform="matrix(-0.94101712,-0.33835896,-0.33835896,0.94101712,0,0)"
+           cx="-725.78497"
+           cy="113.93654"
+           rx="108.57176"
+           ry="137.85757" />
+        <ellipse
+           id="path3234"
+           style="fill:#a754d7;fill-opacity:1"
+           transform="matrix(-0.94101715,-0.33835888,-0.33835888,0.94101715,0,0)"
+           cx="-728.89624"
+           cy="125.52024"
+           rx="66.321976"
+           ry="84.211456" />
+      </g>
+      <path
+         style="fill:#310f44;stroke:#310f44;stroke-width:33.015;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 139.37,254.86 c 3.8182,190.34 55.807,265.15 121.46,265.15 l 231.15,0 c 65.655,0 105.49,5.0553 118.64,-236.57 C 623.78,41.8 135.55,64.53 139.37,254.86 Z"
+         id="path3193" />
+      <path
+         d="m 260.56,169.84 c -50.778,13.606 -95.978,53.372 -95.978,119.18 0,65.812 30.165,165.49 95.978,165.49 l 231.71,0 c 65.812,0 96.014,-99.677 96.014,-165.49 0,-65.812 -34.011,-102.57 -96.014,-119.18 -62.003,-16.614 -103.02,29.93 -115.85,30.375 -12.838,0.44492 -65.076,-43.981 -115.85,-30.375 z"
+         style="fill:#a754d7;fill-opacity:1"
+         id="path3094" />
+      <g
+         id="g4208">
+        <g
+           id="g4187">
+          <circle
+             id="path3025"
+             style="fill:#ffffff;stroke:none;stroke-width:8"
+             cx="447.82956"
+             cy="333.93332"
+             r="70.714287" />
+          <circle
+             id="path3047"
+             style="fill:#000000"
+             cx="447.82974"
+             cy="327.93106"
+             r="22.143085" />
+          <path
+             id="path3106"
+             d="m 518.551,327.93 c 0,0 -63.929,-11.071 -91.786,-10 -27.857,1.0714 -49.643,10 -49.643,10 0,-39.054 31.66,-70.714 70.714,-70.714 39.054,0 70.714,31.66 70.714,70.714 z"
+             style="fill:#7626a3;stroke:none;stroke-width:8;fill-opacity:1" />
+        </g>
+        <g
+           style="stroke:none"
+           id="g3263"
+           transform="translate(8.6908,20)">
+          <g
+             style="stroke:none"
+             id="g3020"
+             transform="translate(67.286,34)">
+            <circle
+               id="path3018"
+               style="fill:#ffffff;stroke:none;stroke-width:8"
+               transform="translate(20,55.714)"
+               cx="206.42857"
+               cy="230.21933"
+               r="70.714287" />
+          </g>
+          <circle
+             id="path3041"
+             style="fill:#000000;stroke:none"
+             transform="matrix(0.33696,0,0,0.33696,343.3,221.6)"
+             cx="-147.14285"
+             cy="268.07648"
+             r="65.714287" />
+          <path
+             id="path3109"
+             style="fill:#7626a3;stroke:none;stroke-width:8;fill-opacity:1"
+             d="m 364.43,311.93 c 0,0 -26.786,-16.071 -48.929,-15.357 -50,0 -92.5,15.357 -92.5,15.357 0,-39.054 31.66,-70.714 70.714,-70.714 39.054,0 70.714,31.66 70.714,70.714 z" />
+        </g>
+      </g>
+      <path
+         style="fill:#a754d7;fill-opacity:1"
+         d="m 653.69,593.59 c 0,0 -185.71,-20 -278.57,-20 -92.857,0 -278.57,20 -278.57,20 0,-112.82 124.72,-204.29 278.57,-204.29 153.85,0 278.57,91.462 278.57,204.29 z"
+         id="path3244" />
+      <g
+         id="g4200"
+         transform="translate(9.2637369,13.404631)">
+        <g
+           id="g4192">
+          <ellipse
+             id="path3131"
+             style="fill:#7626a3;fill-opacity:1;stroke:none;stroke-width:0.89220196"
+             transform="matrix(-0.18768314,0.98222963,-0.98222963,-0.18768314,0,0)"
+             cx="360.48581"
+             cy="-379.70209"
+             rx="46.117676"
+             ry="63.263992" />
+          <ellipse
+             id="path3189"
+             style="fill:#310f44;fill-opacity:1"
+             transform="matrix(-0.18768199,0.98222985,-0.98222985,-0.18768199,0,0)"
+             cx="362.97449"
+             cy="-385.65903"
+             rx="19.618605"
+             ry="26.912703" />
+        </g>
+        <g
+           id="g4196">
+          <ellipse
+             id="path3167"
+             style="fill:#7626a3;fill-opacity:1;stroke:none;stroke-width:0.89220196"
+             transform="matrix(0.18768314,0.98222963,0.98222963,-0.18768314,0,0)"
+             cx="499.20428"
+             cy="346.27368"
+             rx="46.117676"
+             ry="63.263992" />
+          <ellipse
+             id="path3191"
+             style="fill:#310f44;fill-opacity:1"
+             transform="matrix(0.18768199,0.98222985,0.98222985,-0.18768199,0,0)"
+             cx="501.36041"
+             cy="338.5809"
+             rx="19.618605"
+             ry="26.912703" />
+        </g>
+      </g>
+      <path
+         d="m 653.69,609.3 c 0,0 -185.71,-20 -278.57,-20 -92.857,0 -278.57,20 -278.57,20 0,112.82 124.72,204.29 278.57,204.29 153.85,0 278.57,-91.462 278.57,-204.29 z"
+         style="fill:#a754d7;fill-opacity:1"
+         id="path3247" />
+    </g>
+  </g>
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title />
+        <dc:date>2012-05-17T15:48:53</dc:date>
+        <dc:description>Cara de un chimpancÃ©.</dc:description>
+        <dc:source>https://openclipart.org/detail/170075/mono-monkey-by-mediobit</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mediobit</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>chimp</rdf:li>
+            <rdf:li>chimpancÃ©</rdf:li>
+            <rdf:li>chimpanze</rdf:li>
+            <rdf:li>monkey</rdf:li>
+            <rdf:li>mono</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
