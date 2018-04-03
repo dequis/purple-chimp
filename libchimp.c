@@ -670,13 +670,15 @@ chimp_socket_connected(gpointer userdata, PurpleSslConnection *conn, PurpleInput
 {
 	ChimpAccount *ya = userdata;
 	gchar *websocket_header;
+	gchar *host, *path;
 	const gchar *websocket_key = "15XF+ptKDhYVERXoGcdHTA=="; //TODO don't be lazy
-	GString *url = g_string_new("/prod/websocket?");
+
+	purple_url_parse(ya->url_websocket, &host, NULL, &path, NULL, NULL);
 	
 	purple_ssl_input_add(ya->websocket, chimp_socket_got_data, ya);
 	
 	websocket_header = g_strdup_printf("GET %s HTTP/1.1\r\n"
-							"Host: ws12.cl.psh.ue1.app.chime.aws\r\n"
+							"Host: %s\r\n"
 							"Connection: Upgrade\r\n"
 							"Pragma: no-cache\r\n"
 							"Cache-Control: no-cache\r\n"
@@ -684,12 +686,13 @@ chimp_socket_connected(gpointer userdata, PurpleSslConnection *conn, PurpleInput
 							"Sec-WebSocket-Version: 13\r\n"
 							"Sec-WebSocket-Key: %s\r\n"
 							"User-Agent: " CHIMP_USERAGENT "\r\n"
-							"\r\n", url->str, websocket_key);
+							"\r\n", path, host, websocket_key);
 	
 	purple_ssl_write(ya->websocket, websocket_header, strlen(websocket_header));
 	
+	g_free(host);
+	g_free(path);
 	g_free(websocket_header);
-	g_string_free(url, TRUE);
 }
 
 static void
