@@ -90,9 +90,18 @@ libchimp.dll: $(PURPLE_C_FILES) $(PURPLE_COMPAT_FILES)
 libchimp3.dll: $(PURPLE_C_FILES) $(PURPLE_COMPAT_FILES)
 	$(WIN32_CC) -shared -o $@ $^ $(WIN32_PIDGIN3_CFLAGS) $(WIN32_PIDGIN3_LDFLAGS)
 
-install: $(CHIMP_TARGET) 
+install: $(CHIMP_TARGET) install-icons
 	mkdir -p $(CHIMP_DEST)
 	install -p $(CHIMP_TARGET) $(CHIMP_DEST)
+
+install-icons: icons/16/chimp.png icons/22/chimp.png icons/48/chimp.png
+	mkdir -m $(DIR_PERM) -p $(CHIMP_ICONS_DEST)/16
+	mkdir -m $(DIR_PERM) -p $(CHIMP_ICONS_DEST)/22
+	mkdir -m $(DIR_PERM) -p $(CHIMP_ICONS_DEST)/48
+	install -m $(FILE_PERM) -p icons/16/chimp.png $(CHIMP_ICONS_DEST)/16/chimp.png
+	install -m $(FILE_PERM) -p icons/22/chimp.png $(CHIMP_ICONS_DEST)/22/chimp.png
+	install -m $(FILE_PERM) -p icons/48/chimp.png $(CHIMP_ICONS_DEST)/48/chimp.png
+
 
 FAILNOPURPLE:
 	echo "You need libpurple development headers installed to be able to compile this plugin"
