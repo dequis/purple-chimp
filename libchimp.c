@@ -85,6 +85,10 @@ typedef struct {
 	PurpleConnection *pc;
 	
 	gchar *session_token;
+	gchar *url_msg;
+	gchar *url_profile;
+	gchar *url_contacts;
+	gchar *url_websocket;
 	
 	PurpleSslConnection *websocket;
 	gboolean websocket_header_received;
@@ -300,10 +304,15 @@ chimp_auth_callback(ChimpAccount *ya, JsonNode *node, gpointer user_data)
 {
 	JsonObject *obj = json_node_get_object(node);
 	JsonObject *session = json_object_get_object_member(obj, "Session");
-	//JsonObject *config = json_object_get_object_member(session, "ServiceConfig");
+	JsonNode *config = json_object_get_member(session, "ServiceConfig");
 	const char *stoken = json_object_get_string_member(session, "SessionToken");
 
 	ya->session_token = g_strdup(stoken);
+
+	ya->url_msg = chimp_json_path_query_string(config, "$.Messaging.RestUrl", NULL);
+	ya->url_profile = chimp_json_path_query_string(config, "$.Profile.RestUrl", NULL);
+	ya->url_contacts = chimp_json_path_query_string(config, "$.Contacts.RestUrl", NULL);
+	ya->url_websocket = chimp_json_path_query_string(config, "$.Push.WebsocketUrl", NULL);
 
 	purple_serv_got_im(ya->pc, "test", "success", 0, 0);
 
@@ -351,9 +360,14 @@ chimp_close(PurpleConnection *pc)
 		json_object_unref(ya->pending_writes->data);
 		ya->pending_writes = g_slist_delete_link(ya->pending_writes, ya->pending_writes);
 	}
-	
-	g_free(ya->frame); ya->frame = NULL;
-	g_free(ya->session_token); ya->session_token = NULL;
+
+	g_free(ya->frame);
+	g_free(ya->session_token);
+	g_free(ya->url_msg);
+	g_free(ya->url_profile);
+	g_free(ya->url_contacts);
+	g_free(ya->url_websocket);
+
 	g_free(ya);
 }
 
