@@ -345,11 +345,9 @@ static void
 chimp_close(PurpleConnection *pc)
 {
 	ChimpAccount *ya = purple_connection_get_protocol_data(pc);
-	// PurpleAccount *account;
 	
 	g_return_if_fail(ya != NULL);
 	
-	// account = purple_connection_get_account(pc);
 	if (ya->websocket != NULL) purple_ssl_close(ya->websocket);
 	
 	while (ya->http_conns) {
@@ -377,15 +375,6 @@ chimp_close(PurpleConnection *pc)
 
 
 
-
-
-
-
-
-
-
-
-//static void chimp_start_polling(ChimpAccount *ya);
 
 static gboolean
 chimp_process_frame(ChimpAccount *ya, const gchar *frame)
